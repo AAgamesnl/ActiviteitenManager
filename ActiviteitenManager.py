@@ -1,11 +1,11 @@
 import tkinter as tk
 import datetime as DT
 import time
-KlaarmakenNa12 = int(900)
-KlaarmakenVoor12 = int(1800)
+KlaarmakenNa12 = int(900) #seconden (15 minuten)
+KlaarmakenVoor12 = int(1800) #seconden (30 minuten)
 
 
-
+#gui
 root = tk.Tk()
 root.title('ActiviteitenManager')
 frame = tk.Frame(root, height=500, width=800, bg="darkgrey")
